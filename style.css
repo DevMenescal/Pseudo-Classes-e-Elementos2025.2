@@ -70,3 +70,50 @@ header{
     color: #ff0000;
     background-color: #ff0;
 }
+
+.link1{
+    color: #000000;
+    font-size: 25px;
+    background-color: #008000;
+    border: 2px solid #b3ff00;
+    border-radius: 40px 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.link1:hover{
+    background-color: #ff0000;
+    border-radius: 20px 40px;
+}
+
+.link2{
+    color: #000000;
+    font-size: 25px;
+    background-color: #008000;
+    border: 2px solid #b3ff00;
+    border-radius: 40px 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.link2:active{
+    background-color: #0000ff;
+    color: #b3ff00;
+    border-radius: 20px 40px;
+}
+
+.link3{
+    color: #000000;
+    font-size: 25px;
+    background-color: #008000;
+    border: 2px solid #b3ff00;
+    border-radius: 40px 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.link3:focus{
+    background-color: #ffc0cb;
+    color: #b3ff00;
+    border-radius: 20px 40px;
+}
