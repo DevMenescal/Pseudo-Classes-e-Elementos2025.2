@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes e Pseudo Elementos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conhecendo Pseudo Elementos e Pseudo Classes.</h1>
+    </header>
+
+    <main>
+        <h2 class="tituloSecundario">Pseudo Elementos</h2>
+        <p>Os pseudo elementos são utilizados para estilizar partes específicas de um elemento. Eles criam elementos virtuais que não existem no HTML, permitindo aplicar estilos a partes como, a primeira letra de um texto, ou a primeira linha de um parágrafo. Alguns exemplos incluem:</p>
+        <div class="container">
+            <h2>::before</h2>
+            <p>Permite inserir conteúdo ANTES do conteúdo do elemento selecionado.</p>
+            <p class="pContainer1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti neque eos alias, laudantium, a impedit dolorem laborum quod recusandae libero velit hic eius reiciendis nihil dolore ea, porro quam voluptas!</p>
+        </div>
+        <div class="container">
+            <h2>::after</h2>
+            <p>Permite inserir conteúdo APÓS o conteúdo do elemento selecionado.</p>
+            <p class="pContainer2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti neque eos alias, laudantium, a impedit dolorem laborum quod recusandae libero velit hic eius reiciendis nihil dolore ea, porro quam voluptas!</p>
+        </div>
+        <div class="container">
+            <h2>::first-letter</h2>
+            <p>Estilizar a PRIMEIRA LETRA de um elemento de bloco.</p>
+            <p class="pContainer3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti neque eos alias, laudantium, a impedit dolorem laborum quod recusandae libero velit hic eius reiciendis nihil dolore ea, porro quam voluptas!</p>
+        </div>
+        <div class="container">
+            <h2>::first-line</h2>
+            <p>Estiliza a PRIMEIRA LINHA de um elemento em bloco.</p>
+            <p class="pContainer4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti neque eos alias, laudantium, a impedit dolorem laborum quod recusandae libero velit hic eius reiciendis nihil dolore ea, porro quam voluptas!</p>
+        </div>
+
+        <h2 class="tituloSecundario">Pseudo Classes</h2>
+        <p>As Pseudo Classes são utilizadas para aplicar estilos a elementos com base em estados específicos ou ações do usuário. Alguns exemplos incluem:</p>
+
+        <div class="container">
+            <h2>:hover</h2>
+            <p>Estiliza um elemento quando o cursos do mouse está sobre ele. Exmplo:</p>
+            <div>
+                <button class="link1">Link 1</button>
+                <button class="link1">Link 2</button>
+                <button class="link1">Link 3</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>:focus</h2>
+            <p>Aplica um estilo quando o elemento tem foco (como após ser clicado ou selecionado pelo teclado.)Exmplo:</p>
+            <div>
+                <button class="link2">Link 1</button>
+                <button class="link2">Link 2</button>
+                <button class="link2">Link 3</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>:active</h2>
+            <p>Aplica estilos quando o elemento está sendo "clicado". Exemplo:</p>
+            <div>
+                <button class="link3">Link 1</button>
+                <button class="link3">Link 2</button>
+                <button class="link3">Link 3</button>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
